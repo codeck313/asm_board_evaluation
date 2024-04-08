@@ -26,13 +26,14 @@ Assuming ROS Melodic has been installed.
 	 ```sh
 	 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 	```
+One can see the demo of HectorSLAM running on Volta robot [here](https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/sakshams_iisc_ac_in/EUXoaY-nNm1ArOLA7YDDI8sBmZO-PVMdEl6xRYOVdvo7Qg?e=rET3J5)
 ### Setup for Obstacle Avoidance
 Source the above workspace and run the following launch file. One can edit the target location in the launch file as per need.
 
 ```sh
 $ rosrun multi_controller bug2.launch
 ```
-
+One can see the demo of obstacle avoidance running on Volta robot [here](https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/sakshams_iisc_ac_in/EU_QcgNcvNlEiMfHXlp6UYwBh3YHEQOFhN_MIHcEh_vj5g?e=Sd9PzT)
 ### Accessing GPS Data
 1. Make sure nvgetty service is running
 	```sh
@@ -44,3 +45,7 @@ $ rosrun multi_controller bug2.launch
 	```sh
 	$ sudo  cat  /dev/ttyTHS0
 	```
+ You should see output similar to following screenshot
+![Screenshot (98)](https://github.com/codeck313/asm_board_evaluation/assets/23121752/63c86ef8-8d52-4cd5-95fe-256034008749)
+
+
